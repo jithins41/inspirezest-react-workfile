@@ -1,22 +1,23 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Navbar.css'
+import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
     render() {
         return (
             <nav className="navbar">
-                <a href="#" class="logo"><h1>InspireZest</h1></a>
+                <Link to='/' className="logo"><h1>InspireZest</h1></Link>
                 <input type="checkbox" name="" id="toggler" />
                 <label for="toggler"><i className="ri-meu-line">
-                    <FontAwesomeIcon color="red" icon='anchor' />
+                   Menu
                 </i></label>
                 <div className="menu">
                     <ul class="list">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/about'>About</Link> </li>
+                        <li><Link to='/services'>Services</Link> </li>
+                        <li><Link to='/contact'>Contact</Link> </li>
+                        
                     </ul>
                 </div>
             </nav>

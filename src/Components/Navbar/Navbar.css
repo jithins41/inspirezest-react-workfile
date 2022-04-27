@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
-    padding: 15px;
-    border:1px solid red
+    padding: 2rem 3rem;
+    
 }
 .navbar a{
     text-decoration: none;
@@ -29,6 +29,7 @@
         width: 100%;
         max-height: 0;
         overflow: hidden;
+       
     }
     .list{
         flex-direction: column;
@@ -39,8 +40,10 @@
         display: inline-flex;
         align-items: center;
         cursor: pointer;
+        padding: 0rem 0rem;
     }
     #toggler:checked ~ .menu{
         max-height: 100%;
+        
     }
 }

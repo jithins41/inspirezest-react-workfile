@@ -1,0 +1,14 @@
+.primary-button{
+    padding: 1rem 2.5rem;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--ins-yellow);
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .primary-button{
+        padding: 0.5rem 1rem;
+    }
+}

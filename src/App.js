@@ -1,8 +1,10 @@
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
+import Index from './pages/Index';
+
+
 function App() {
   return (
-    <Navbar />
+    <Index />
   );
 }
 
