@@ -3,6 +3,8 @@ import Navbar from '../Components/Navbar/Navbar'
 import ImageText from '../Components/ImageText/ImageText'
 import MiniServices from '../Components/MiniServices/MiniServices'
 import IndexBody from '../Components/IndexBody/IndexBody'
+import Services from '../Components/Services/Services'
+import Footer from '../Components/Footer/Footer'
 
 export default class Index extends Component {
     render() {
@@ -10,8 +12,10 @@ export default class Index extends Component {
             <div>
                 <Navbar />
                 <ImageText />
-                <MiniServices/>
-                <IndexBody/>
+                <MiniServices />
+                <IndexBody />
+                <Services />
+                <Footer />
             </div>
         )
     }
