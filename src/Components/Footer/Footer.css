@@ -55,9 +55,10 @@
 }
 
 @media screen and (max-width:600px) {
-    .footer-container{
+    .footer-container {
         padding: 0 2rem;
     }
+
     .ins-row {
         padding: 2rem;
         display: flex;
