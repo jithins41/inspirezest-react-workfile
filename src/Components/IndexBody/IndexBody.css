@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+
     /* justify-content: space-evenly; */
     /* border:1px solid red; */
     
@@ -10,7 +11,6 @@
 .image-area{
     width: 100%;
     margin-top: 1rem;
-    padding: 0 0rem;
 }
 .image-area img{
     width: 100%;
@@ -51,20 +51,18 @@
     }
     .body-container{
         flex-direction: row;
-        justify-content: space-evenly;
-        /* border:1px solid red; */
+        justify-content: space-between;
+        padding: 0 5rem;
         
     }
     .image-area{
         width: 50%;
-        padding: 0 2rem;
     }
     .image-area img{
         width: 100%;
-        transform: scale(1);
+        /* transform: scale(1); */
     }
     .text-area{
-        padding: 0 2rem;
         width: 50%;
         text-align: start;
         align-items: flex-start;
