@@ -9,7 +9,8 @@
     padding: 3rem 2rem;
     text-align: center;
     margin: 1rem 0;
-    box-shadow: 0 0 20px rgb(170, 170, 170);
+    box-shadow: 0 0 50px 0px rgba(168, 168, 168, 0.527);
+    border-radius: 5px;
 }
 .small-card i{
     font-size: 2rem;
@@ -26,10 +27,10 @@
 }
 @media screen and (min-width:780px) {
     .small-card{
-        padding: 1rem 2rem;
+        padding: 3rem 2rem;
         text-align: center;
         margin: 1rem 0;
-        width: 15%;
+        width: 18%;
         justify-content: space-around;
     }
     .small-card-container{
