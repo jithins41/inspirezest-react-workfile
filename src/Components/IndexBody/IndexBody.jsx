@@ -8,7 +8,7 @@ export default class IndexBody extends Component {
       <div className="container">
         <div className="body-container">
           <div className="image-area">
-            <img src="images/office-1.svg" alt="" />
+            <img className="area-image" src="images/office-1.svg" alt="" />
           </div>
           <div className="text-area">
             <h6>About us</h6>
@@ -39,7 +39,7 @@ export default class IndexBody extends Component {
             </div>
           </div>
           <div className="image-area">
-            <img src="images/office-3.svg" alt="" />
+            <img className="area-image" src="images/office-3.svg" alt="" />
           </div>
         </div>
       </div>

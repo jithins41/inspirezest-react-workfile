@@ -4,6 +4,7 @@
     margin-top: 2rem;
     justify-content: space-between;
 }
+
 .image {
     width: 100%;
     position: relative;
@@ -28,34 +29,43 @@
 
 
 .text-area {
-    width: 50%;
+    height: 60vh;
+    width: auto;
 }
 
-.image-area {
+.anim-image-area {
     width: 50%;
+    position: absolute;
+    /* transform: scale(0.8); */
     /* border: 1px solid red; */
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
-
+.static-image-area{
+    display: none;
+}
 @media screen and (max-width:600px) {
     .image-text-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 0 1rem;
         align-items: center;
     }
-    .image-area{
-        justify-content: center;
+
+    .anim-image-area {
+       display: none;
+       width: 100%;
+    }
+    .static-image-area{
+        display: flex;
+        width: 100%;
     }
     .overlay-text {
         font-size: 25px;
         /* border: 1px solid #fff; */
     }
 
-    .text-area, .image-area {
+    .text-area{
         width: 100%;
+        height: auto;
     }
 
 }

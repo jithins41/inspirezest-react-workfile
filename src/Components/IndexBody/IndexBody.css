@@ -10,7 +10,7 @@
     width: 100%;
     margin-top: 1rem;
 }
-.image-area img{
+.image-area .area-image{
     width: 100%;
     
 }
@@ -56,7 +56,7 @@
     .image-area{
         width: 50%;
     }
-    .image-area img{
+    .image-area .area-image{
         width: 100%;
         /* transform: scale(1); */
     }
