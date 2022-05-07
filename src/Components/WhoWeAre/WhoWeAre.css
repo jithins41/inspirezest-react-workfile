@@ -38,3 +38,30 @@
     align-items: flex-start;
     justify-content: space-evenly;
 }
+
+
+@media (max-width:600px) {
+    .who-container {
+        padding: 0 2rem;
+    }
+
+    .who-image-text {
+        flex-direction: column;
+    }
+
+    .who-image {
+        width: 100%;
+    }
+
+    .who-text {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0;
+        font-size: 12px;
+    }
+    .who-text h1,p,a{
+        margin-top: 2rem;
+    }
+}

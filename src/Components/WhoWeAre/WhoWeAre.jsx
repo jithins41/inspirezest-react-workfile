@@ -1,6 +1,6 @@
 import React from "react";
 import "./WhoWeAre.css";
-
+import { Link } from "react-router-dom";
 function WhoWeAre() {
   return (
     <div className="container">
@@ -13,18 +13,21 @@ function WhoWeAre() {
             <img src="images/about-dev.svg" alt="" />
           </div>
           <div className="who-text">
-            <h1 style={{ marginTop: "0rem" }}>
+            <h1>
               Our Spirit Of Innovation And Pass That What We Have Undertaken
             </h1>
-            <p style={{ marginTop: "0rem" }}>
+            <p >
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
               beatae mollitia magni deserunt unde delectus blanditiis
               accusantium. Esse facere natus adipisci ipsa ipsam veniam impedit
               officiis labore, minima, quas eius?
             </p>
-            <a style={{ marginTop: "0rem" }} className="common-button" href="#">
+            <Link
+              className="common-button"
+              to="/services"
+            >
               Our Services
-            </a>
+            </Link>
           </div>
         </div>
       </div>

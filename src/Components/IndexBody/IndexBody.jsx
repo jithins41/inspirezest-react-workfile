@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./IndexBody.css";
-import Button from "../Button/Button";
+import {Link} from 'react-router-dom'
+
 
 export default class IndexBody extends Component {
   render() {
@@ -20,7 +21,7 @@ export default class IndexBody extends Component {
               iure odio temporibus veritatis?
             </p>
             <div className="button-area">
-              <Button type="primary-button" text="Know more" />
+              <Link to='/about' className='common-button' >Know more</Link>
             </div>
           </div>
         </div>
@@ -35,7 +36,7 @@ export default class IndexBody extends Component {
               iure odio temporibus veritatis?
             </p>
             <div className="button-area">
-              <Button type="primary-button" text="Know more" />
+            <Link to='/about' className='common-button' >Know more</Link>
             </div>
           </div>
           <div className="image-area">

@@ -1,27 +1,71 @@
 import React, { Component } from "react";
-import './Navbar.css'
-import { Link } from "react-router-dom";
-import FloatingText from "../FloatingText/FloatingText";
+import "./Navbar.css";
+import { Link, NavLink } from "react-router-dom";
 
 export default class Navbar extends Component {
-    render() {
-        return (
-            <nav className="navbar">
-                <Link to='/' className="logo"><img src="images/logo.png" alt="InspireZest Logo" /></Link>
-                <input type="checkbox" name="" id="toggler" />
-                <label for="toggler">
-                <i class="fa-solid fa-bars menu-btn"></i>
-                </label>
-                <div className="menu">
-                    <ul class="list">
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/about'>About</Link> </li>
-                        <li><Link to='/services'>Services</Link> </li>
-                        <li><Link to='/contact'>Contact</Link> </li>
-                        
-                    </ul>
-                </div>
-            </nav>
-        )
-    }
+  render() {
+    return (
+      <nav className="navbar">
+        <Link to="/" className="logo">
+          <img src="images/logo.png" alt="InspireZest Logo" />
+        </Link>
+        <input type="checkbox" name="" id="toggler" />
+        <label for="toggler">
+          <i class="fa-solid fa-bars menu-btn"></i>
+        </label>
+        <div className="menu">
+          <ul class="list">
+            <li>
+              <NavLink
+                style={({ isActive }) =>
+                  isActive
+                    ? { color: "#81007F", fontWeight: "bold" }
+                    : undefined
+                }
+                to="/"
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                style={({ isActive }) =>
+                  isActive
+                    ? { color: "#81007F", fontWeight: "bold" }
+                    : undefined
+                }
+                to="/about"
+              >
+                About
+              </NavLink>{" "}
+            </li>
+            <li>
+              <NavLink
+                style={({ isActive }) =>
+                  isActive
+                    ? { color: "#81007F", fontWeight: "bold" }
+                    : undefined
+                }
+                to="/services"
+              >
+                Services
+              </NavLink>{" "}
+            </li>
+            <li>
+              <NavLink
+                style={({ isActive }) =>
+                  isActive
+                    ? { color: "#81007F", fontWeight: "bold" }
+                    : undefined
+                }
+                to="/contact"
+              >
+                Contact
+              </NavLink>{" "}
+            </li>
+          </ul>
+        </div>
+      </nav>
+    );
+  }
 }
