@@ -42,7 +42,7 @@
 .static-image-area{
     display: none;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:780px) {
     .image-text-container {
         display: flex;
         flex-direction: column-reverse;

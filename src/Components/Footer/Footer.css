@@ -2,12 +2,15 @@
     background-color: #f3f3f3;
     margin-top: 5rem;
     padding: 0 5rem;
+    border: 1px solid red;
+    
 }
 
 .ins-row {
     padding: 2rem;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .ins-row .ins-col-3 {
@@ -22,7 +25,7 @@
 .footer-address {
     margin-top: 2rem;
     font-weight: bold;
-    font-size: .75rem;
+    font-size: 1rem;
 }
 
 .footer-socialmedia ul {
@@ -30,6 +33,14 @@
     list-style: none;
     display: flex;
     gap: 2rem;
+}
+
+.footer-email {
+    margin-top: 2rem;
+}
+
+.footer-phone {
+    margin-top: 1rem;
 }
 
 .footer-work {
@@ -52,6 +63,7 @@
     padding: 1rem;
     margin-top: 2rem;
     box-shadow: 0px 0px 10px 0px rgb(170, 169, 169);
+    border: 1px solid red;
 }
 
 @media screen and (max-width:600px) {

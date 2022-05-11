@@ -1,0 +1,123 @@
+@charset "utf-8";
+	.image
+{
+	/* background-image : url(image.png); */
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1918px;
+	top : 528px;
+	width : 1348px;
+	height : 1453px;
+}
+.image8
+{
+	/* background-image : url(image8.png); */
+	background-repeat : no-repeat;
+	opacity : 0.5;
+	position : absolute ;
+	left : 1579px;
+	top : 195px;
+	width : 1094px;
+	height : 703px;
+	filter: alpha(opacity=50) progid:DXImageTransform.Microsoft.Alpha(opacity=50) ;
+}
+.image6
+{
+	/* background-image : url(image6.png); */
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1425px;
+	top : 50px;
+	width : 1271px;
+	height : 612px;
+}
+.st0
+{
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	position : absolute ;
+	left : 0px;
+	top : 0px;
+	width : 3500px;
+	height : 2000px;
+}
+.st1
+{
+	background : #07085B;
+	background : rgba(7, 8, 91, 1);
+	position : absolute ;
+	left : 314px;
+	top : 1971px;
+	width : 2922px;
+	height : 13px;
+}
+.image2
+{
+	/* background-image : url(image2.png); */
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 551px;
+	top : 494px;
+	width : 245px;
+	height : 245px;
+}
+.image1
+{
+	/* background-image : url(image1.png); */
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 453px;
+	top : 493px;
+	width : 851px;
+	height : 1479px;
+}
+.image5
+{
+	/* background-image : url(image5.png); */
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1202px;
+	top : 951px;
+	width : 891px;
+	height : 1022px;
+}
+.st2
+{
+	background : #E4F0FF;
+	background : rgba(228, 240, 255, 1);
+	position : absolute ;
+	left : 98px;
+	top : 48px;
+	width : 3267px;
+	height : 1931px;
+}
+.image3
+{
+	/* background-image : url(image3.png); */
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1438px;
+	top : 1334px;
+	width : 310px;
+	height : 129px;
+}
+.image4
+{
+	/* background-image : url(image4.png); */
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1280px;
+	top : 1461px;
+	width : 1355px;
+	height : 511px;
+}
+.image7
+{
+	/* background-image : url(image7.png); */
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1046px;
+	top : 1274px;
+	width : 399px;
+	height : 707px;
+}

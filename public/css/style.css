@@ -3,6 +3,21 @@
     --ins-secondary: #81007F;
     --ins-light: #f9f9f9;
     --ins-yellow: rgb(233, 182, 12);
+    --ins-grey:rgb(199, 199, 199);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--ins-grey);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, var(--ins-primary), var(--ins-secondary));
+    border-radius: 50px;
 }
 
 * {
@@ -28,6 +43,7 @@
     font-weight: bold;
     color: white;
 }
+
 .common-button:hover {
     text-decoration: none;
     padding: 0.75rem 2.5rem;

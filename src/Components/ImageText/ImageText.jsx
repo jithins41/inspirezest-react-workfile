@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "./ImageText.css";
 import Typed from "react-typed";
-import "aos/dist/aos.css";
-import AOS from "aos";
 import AminatedImageOne from "../AnimatedImageOne/AminatedImageOne";
 
 const lines = [
@@ -13,18 +11,12 @@ const lines = [
 ];
 
 export default class ImageText extends Component {
-  componentDidMount() {
-    AOS.init({
-      duration: 700,
-      easing: "ease-in",
-    });
-    AOS.refresh();
-  }
+ 
   render() {
     return (
       <div className="container">
         <div className="image-text-container">
-          <div data-aos="fade-up" className="text-area">
+          <div className="text-area wow slideInLeft">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
             debitis repellendus, consequuntur consequatur modi nesciunt deserunt
             reprehenderit eveniet, aspernatur quo blanditiis in quia nam libero
@@ -45,7 +37,7 @@ export default class ImageText extends Component {
             </div>
           </div>
           <div className="static-image-area">
-            <img data-aos="fade-up" src="images/developer-1.svg" alt="" />
+            <img src="images/developer-1.svg" alt="" />
           </div>
         </div>
       </div>

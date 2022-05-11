@@ -17,6 +17,13 @@ export default class Footer extends Component {
                 IInd floor, Velayudham Mansion, SN College Junction, Kollam,
                 Kerala, India
               </div>
+              <div className="footer-email">
+                <i class="fa-solid fa-envelope"></i>:
+                info@inspirezesttechnologies.com
+              </div>
+              <div className="footer-phone">
+                <i class="fa-solid fa-phone"></i> +91 9567333266
+              </div>
               <div className="footer-socialmedia">
                 <ul>
                   <li>
@@ -42,13 +49,13 @@ export default class Footer extends Component {
             <div className="ins-col-3">
               <h1 className="footer-work">Work Hours</h1>
               <ul className="work-hours">
-                <li>Monday: 09:00AM - 06:00PM</li>
-                <li>Tuesday: 09:00AM - 06:00PM</li>
-                <li>Wednesday: 09:00AM - 06:00PM</li>
-                <li>Thursday: 09:00AM - 06:00PM</li>
-                <li>Friday: 09:00AM - 06:00PM</li>
-                <li>Saturday : Closed</li>
-                <li>Sunday: Closed</li>
+                <li>Mon: 09:00AM - 06:00PM</li>
+                <li>Tue: 09:00AM - 06:00PM</li>
+                <li>Wed: 09:00AM - 06:00PM</li>
+                <li>Thu: 09:00AM - 06:00PM</li>
+                <li>Fri: 09:00AM - 06:00PM</li>
+                <li>Sat: Closed</li>
+                <li>Sun: Closed</li>
               </ul>
             </div>
             <div className="ins-col-3">

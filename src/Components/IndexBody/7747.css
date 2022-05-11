@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+.office-image{
+	display: block;
+	position: relative;
+	transform: scale(0.65);
+}
+
+@media (max-width:786px){
+	.office-image{
+		display: none;
+	}
+}
+
+.image {
+	position: absolute;
+	left: 67px;
+	top: -5px;
+}
+
+.image8 {
+
+	position: absolute;
+	left: 384px;
+	top: 354px;
+}
+
+.image6 {
+
+	position: absolute;
+	left: 145px;
+	top: 128px;
+}
+
+.st0 {
+	background: #142666;
+	background: rgba(20, 38, 102, 1);
+	position: absolute;
+	left: 489px;
+	top: 28px;
+}
+
+.st1 {
+	background: #07085B;
+	background: rgba(7, 8, 91, 1);
+	position: absolute;
+	left: 82px;
+	top: 527px;
+}
+
+.image2 {
+
+	position: absolute;
+	left: 238px;
+	top: 128px;
+}
+
+.image1 {
+
+	position: absolute;
+	left: 690px;
+	top: 166px;
+}
+
+.image5 {
+
+	position: absolute;
+	left: 207px;
+	top: 220px;
+}
+
+.st2 {
+	background: #142666;
+	background: rgba(20, 38, 102, 1);
+	position: absolute;
+	left: 605px;
+	top: 9px;
+}
+
+.image3 {
+
+	position: absolute;
+	left: 735px;
+	top: 137px;
+}
+
+.image4 {
+
+	position: absolute;
+	left: 293px;
+	top: 158px;
+}
+
+.image7 {
+
+	position: absolute;
+	left: 698px;
+	top: 222px;
+}
+
+.image18 {
+
+	opacity: 0.5;
+	position: absolute;
+	left: 422px;
+	top: 47px;
+	filter: alpha(opacity=50) progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+.image16 {
+
+	position: absolute;
+	left: 513px;
+	top: 244px;
+}
+
+.image17 {
+
+	position: absolute;
+	left: 430px;
+	top: 251px;
+}
+
+.image15 {
+
+	position: absolute;
+	left: 684px;
+	top: 338px;
+}
+
+.st3 {
+	background: #142666;
+	background: rgba(20, 38, 102, 1);
+	position: absolute;
+	left: 381px;
+	top: 69px;
+}
+
+.image12 {
+
+	position: absolute;
+	left: 622px;
+	top: 286px;
+}
+
+.image10 {
+
+	position: absolute;
+	left: 342px;
+	top: 389px;
+}
+
+.image14 {
+
+	position: absolute;
+	left: 278px;
+	top: 338px;
+}
+
+.image9 {
+
+	position: absolute;
+	left: 119px;
+	top: 261px;
+}
+
+.image13 {
+
+	position: absolute;
+	left: 782px;
+	top: 344px;
+}
+
+.st4 {
+	background: #142666;
+	background: rgba(20, 38, 102, 1);
+	position: absolute;
+	left: 686px;
+	top: 29px;
+}
+
+.image11 {
+
+	position: absolute;
+	left: 320px;
+	top: 273px;
+}

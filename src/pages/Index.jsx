@@ -6,6 +6,7 @@ import IndexBody from '../Components/IndexBody/IndexBody'
 import Services from '../Components/Services/Services'
 import Footer from '../Components/Footer/Footer'
 import Loader from '../Components/Loader/Loader'
+import 'react-whatsapp-chat-widget/index.css'
 
 export default class Index extends Component {
     render() {
@@ -18,6 +19,7 @@ export default class Index extends Component {
                 <IndexBody />
                 <Services />
                 <Footer />
+              
             </div>
         )
     }
