@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import "./MiniServices.css";
-
+import AnimationObjects from "../AnimationObjects/AnimationObjects";
 export default class MiniServices extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container">.
+      <AnimationObjects/>
         <div className="small-card-container">
           <div className="small-card">
             <i class="fa-solid fa-store"></i>

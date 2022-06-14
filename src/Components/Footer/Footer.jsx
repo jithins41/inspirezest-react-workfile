@@ -49,21 +49,23 @@ export default class Footer extends Component {
             <div className="ins-col-3">
               <h1 className="footer-work">Work Hours</h1>
               <ul className="work-hours">
-                <li>Mon: 09:00AM - 06:00PM</li>
-                <li>Tue: 09:00AM - 06:00PM</li>
-                <li>Wed: 09:00AM - 06:00PM</li>
-                <li>Thu: 09:00AM - 06:00PM</li>
-                <li>Fri: 09:00AM - 06:00PM</li>
-                <li>Sat: Closed</li>
-                <li>Sun: Closed</li>
+                <li>Mon : 09:00AM - 06:00PM</li>
+                <li>Tue : 09:00AM - 06:00PM</li>
+                <li>Wed : 09:00AM - 06:00PM</li>
+                <li>Thu : 09:00AM - 06:00PM</li>
+                <li>Fri : 09:00AM - 06:00PM</li>
+                <li>Sat : Closed</li>
+                <li>Sun : Closed</li>
               </ul>
             </div>
             <div className="ins-col-3">
+              <a href="https://google.com/maps/place/InspireZest+Technologies+Pvt+Ltd/@8.8802302,76.6043145,15z/data=!4m5!3m4!1s0x0:0xbff685223bfa38ea!8m2!3d8.8802302!4d76.6043145">
               <img
-                src="images/location.png"
+                src="images/map.png"
                 className="image-fit footer-map"
                 alt=""
               />
+              </a>
             </div>
           </div>
         </div>

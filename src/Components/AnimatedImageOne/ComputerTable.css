@@ -1,0 +1,353 @@
+@charset "utf-8";
+	.Aimage18
+{
+
+	position : absolute ;
+	left : 528px;
+	top : 202px;
+	width : 180px;
+	height : 51px;
+}
+.Aimage17
+{
+	
+	position : absolute ;
+	left : 247px;
+	top : 262px;
+	width : 453px;
+	height : 60px;
+}
+.Aimage
+{
+	
+	position : absolute ;
+	left : 73px;
+	top : 183px;
+	width : 370px;
+	height : 133px;
+}
+.st0
+{
+	background : -moz-linear-gradient(0% 50% 0deg,rgba(255, 211, 40, 1) 0%,rgba(255, 167, 0, 1) 100%);
+	background : -webkit-linear-gradient(0deg, rgba(255, 211, 40, 1) 0%, rgba(255, 167, 0, 1) 100%);
+	background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(255, 211, 40, 1) ),color-stop(1,rgba(255, 167, 0, 1) ));
+	background : -o-linear-gradient(0deg, rgba(255, 211, 40, 1) 0%, rgba(255, 167, 0, 1) 100%);
+	background : -ms-linear-gradient(0deg, rgba(255, 211, 40, 1) 0%, rgba(255, 167, 0, 1) 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD328', endColorstr='#FFA700' ,GradientType=0)";
+	background : linear-gradient(90deg, rgba(255, 211, 40, 1) 0%, rgba(255, 167, 0, 1) 100%);
+	position : absolute ;
+	left : 395px;
+	top : 111px;
+	width : 19px;
+	height : 13px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD328',endColorstr='#FFA700' , GradientType=1);
+}
+.st1
+{
+	background : #B4B2F4;
+	background : rgba(180, 178, 244, 1);
+	position : absolute ;
+	left : 191px;
+	top : 217px;
+	width : 41px;
+	height : 25px;
+}
+.Aimage1
+{
+	
+	position : absolute ;
+	left : 179px;
+	top : 256px;
+	width : 227px;
+	height : 92px;
+}
+.st2
+{
+	background : #953345;
+	background : rgba(149, 51, 69, 1);
+	opacity : 0.3;
+	position : absolute ;
+	left : 408px;
+	top : 111px;
+	width : 5px;
+	height : 12px;
+	filter: alpha(opacity=30) progid:DXImageTransform.Microsoft.Alpha(opacity=30) ;
+}
+.st3
+{
+	background : -moz-radial-gradient(50% 50%, circle farthest-corner, rgba(252, 252, 253, 1) 0%, rgba(176, 164, 216, 1) 98.29%);
+	background : -webkit-radial-gradient(50% 50%, circle farthest-corner, rgba(252, 252, 253, 1) 0%, rgba(176, 164, 216, 1) 98.29%);
+	background : -webkit-gradient(radial,50% 50% ,0 , 50% 50%, 56.59 ,color-stop(0,rgba(252, 252, 253, 1) ),color-stop(0.9829,rgba(176, 164, 216, 1) ));
+	background : -o-radial-gradient(50% 50%, circle farthest-corner, rgba(252, 252, 253, 1) 0%, rgba(176, 164, 216, 1) 98.29%);
+	background : -ms-radial-gradient(50% 50%, circle farthest-corner, rgba(252, 252, 253, 1) 0%, rgba(176, 164, 216, 1) 98.29%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
+	background : radial-gradient(50% 50%, circle farthest-corner, rgba(252, 252, 253, 1) 0%, rgba(176, 164, 216, 1) 98.29%);
+	opacity : 0.61;
+	position : absolute ;
+	left : 417px;
+	top : 136px;
+	width : 130px;
+	height : 92px;
+	filter: alpha(opacity=61) progid:DXImageTransform.Microsoft.Alpha(opacity=61) progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+}
+.st4
+{
+	background : -moz-linear-gradient(0% 50% 0deg,rgba(255, 110, 39, 1) 0%,rgba(224, 51, 71, 1) 99.8%);
+	background : -webkit-linear-gradient(0deg, rgba(255, 110, 39, 1) 0%, rgba(224, 51, 71, 1) 99.8%);
+	background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(255, 110, 39, 1) ),color-stop(0.998,rgba(224, 51, 71, 1) ));
+	background : -o-linear-gradient(0deg, rgba(255, 110, 39, 1) 0%, rgba(224, 51, 71, 1) 99.8%);
+	background : -ms-linear-gradient(0deg, rgba(255, 110, 39, 1) 0%, rgba(224, 51, 71, 1) 99.8%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF6E27', endColorstr='#E03347' ,GradientType=0)";
+	background : linear-gradient(90deg, rgba(255, 110, 39, 1) 0%, rgba(224, 51, 71, 1) 99.8%);
+	position : absolute ;
+	left : 386px;
+	top : 128px;
+	width : 27px;
+	height : 22px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF6E27',endColorstr='#E03347' , GradientType=1);
+}
+.st5
+{
+	background : #9A2463;
+	background : rgba(154, 36, 99, 1);
+	opacity : 0.5;
+	position : absolute ;
+	left : 448px;
+	top : 264px;
+	width : 250px;
+	height : 17px;
+	filter: alpha(opacity=50) progid:DXImageTransform.Microsoft.Alpha(opacity=50) ;
+}
+.st6
+{
+	background : #B4B2F4;
+	background : rgba(180, 178, 244, 1);
+	position : absolute ;
+	left : 244px;
+	top : 44px;
+	width : 72px;
+	height : 40px;
+}
+.st7
+{
+	background : #953345;
+	background : rgba(149, 51, 69, 1);
+	opacity : 0.3;
+	position : absolute ;
+	left : 404px;
+	top : 128px;
+	width : 10px;
+	height : 22px;
+	filter: alpha(opacity=30) progid:DXImageTransform.Microsoft.Alpha(opacity=30) ;
+}
+.st8
+{
+	background : -moz-radial-gradient(50% 50%, circle farthest-corner, rgba(36, 120, 254, 1) 0%, rgba(128, 74, 214, 1) 99.44%);
+	background : -webkit-radial-gradient(50% 50%, circle farthest-corner, rgba(36, 120, 254, 1) 0%, rgba(128, 74, 214, 1) 99.44%);
+	background : -webkit-gradient(radial,50% 50% ,0 , 50% 50%, 42.13 ,color-stop(0,rgba(36, 120, 254, 1) ),color-stop(0.9944,rgba(128, 74, 214, 1) ));
+	background : -o-radial-gradient(50% 50%, circle farthest-corner, rgba(36, 120, 254, 1) 0%, rgba(128, 74, 214, 1) 99.44%);
+	background : -ms-radial-gradient(50% 50%, circle farthest-corner, rgba(36, 120, 254, 1) 0%, rgba(128, 74, 214, 1) 99.44%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
+	background : radial-gradient(50% 50%, circle farthest-corner, rgba(36, 120, 254, 1) 0%, rgba(128, 74, 214, 1) 99.44%);
+	position : absolute ;
+	left : 429px;
+	top : 136px;
+	width : 118px;
+	height : 13px;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+}
+.Aimage9
+{
+	
+	opacity : 0.27;
+	position : absolute ;
+	left : 529px;
+	top : 163px;
+	width : 70px;
+	height : 43px;
+	filter: alpha(opacity=27) progid:DXImageTransform.Microsoft.Alpha(opacity=27) ;
+}
+.Aimage3
+{
+	animation: lensmove 3s infinite linear;
+	position : absolute ;
+	left : 445px;
+	top : 70px;
+	width : 31px;
+	height : 22px;
+}
+.Aimage13
+{
+	
+	position : absolute ;
+	left : 430px;
+	top : 113px;
+	width : 147px;
+	height : 114px;
+}
+.Aimage6
+{
+	
+	position : absolute ;
+	left : 345px;
+	top : 50px;
+	width : 59px;
+	height : 66px;
+	animation: rotate 3s linear infinite;
+}
+.Aimage15
+{
+	
+	position : absolute ;
+	left : 495px;
+	top : 244px;
+	width : 215px;
+	height : 110px;
+}
+.Aimage16
+{
+	
+	position : absolute ;
+	left : 389px;
+	top : 90px;
+	width : 255px;
+	height : 183px;
+}
+.Aimage5
+{
+	animation: rotate 3s linear infinite;
+	position : absolute ;
+	left : 662px;
+	top : 129px;
+	width : 40px;
+	height : 45px;
+}
+.Aimage8
+{
+	
+	position : absolute ;
+	left : 627px;
+	top : 102px;
+	width : 39px;
+	height : 28px;
+}
+.Aimage12
+{
+	
+	opacity : 0.27;
+	position : absolute ;
+	left : 439px;
+	top : 131px;
+	width : 117px;
+	height : 89px;
+	filter: alpha(opacity=27) progid:DXImageTransform.Microsoft.Alpha(opacity=27) ;
+}
+.Aimage2
+{
+
+	position : absolute ;
+	left : 392px;
+	top : 227px;
+	width : 86px;
+	height : 27px;
+}
+.Aimage4
+{
+	
+	position : absolute ;
+	left : 615px;
+	top : 135px;
+	width : 69px;
+	height : 69px;
+	animation: rotate 3s linear infinite;
+}
+.Aimage7
+{
+	animation: lensmove 5s linear infinite;
+	position : absolute ;
+	left : 362px;
+	top : 143px;
+	width : 111px;
+	height : 98px;
+}
+.Aimage11
+{
+
+	position : absolute ;
+	left : 522px;
+	top : 151px;
+	width : 101px;
+	height : 73px;
+}
+.Aimage14
+{
+
+	position : absolute ;
+	left : 538px;
+	top : 237px;
+	width : 78px;
+	height : 39px;
+}
+.Aimage10
+{
+
+	position : absolute ;
+	left : 474px;
+	top : 72px;
+	width : 88px;
+	height : 57px;
+}
+.Aimage19
+{
+
+	position : absolute ;
+	left : 235px;
+	top : 161px;
+	width : 288px;
+	height : 112px;
+}
+.Aimage20
+{
+
+	position : absolute ;
+	left : 565px;
+	top : 44px;
+	width : 29px;
+	height : 24px;
+}
+.Aimage21
+{
+
+	position : absolute ;
+	left : 223px;
+	top : 51px;
+	width : 504px;
+	height : 301px;
+}
+
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@keyframes lensmove{
+	0%{
+		transform: translate(0,0);
+	}
+	25%{
+		transform: translate(10,-30px);
+	}
+	50%{
+		transform: translate(30,-50px);
+	}
+	75%{
+		transform: translate(50px,30px);
+	}
+	100%{
+		transform: translate(0,0);
+	}
+}

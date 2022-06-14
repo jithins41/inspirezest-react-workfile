@@ -1,0 +1,25 @@
+.animation-object{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0.3;
+    animation: socialanimation 20s infinite linear;
+}
+.animation-object-group{
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    opacity: 0.5;
+    animation: socialanimation 50s infinite linear;
+}
+
+@keyframes socialanimation {
+    0%{
+        transform: 
+         rotateZ(0deg) ;
+    }
+    100%{
+      transform: 
+       rotateZ(360deg);
+    }
+}

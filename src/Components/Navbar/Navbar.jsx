@@ -63,6 +63,15 @@ export default class Navbar extends Component {
                 Contact
               </NavLink>{" "}
             </li>
+            <li>
+              <NavLink
+                className="common-button"
+                to="/career"
+                style={{color:'#fff'}}
+              >
+                Join us
+              </NavLink>{" "}
+            </li>
           </ul>
         </div>
       </nav>

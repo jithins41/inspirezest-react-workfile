@@ -7,6 +7,8 @@ import Services from '../Components/Services/Services'
 import Footer from '../Components/Footer/Footer'
 import Loader from '../Components/Loader/Loader'
 import 'react-whatsapp-chat-widget/index.css'
+import StartCareer from '../Components/StartCareer/StartCareer'
+import AnimationObjects from '../Components/AnimationObjects/AnimationObjects'
 
 export default class Index extends Component {
     render() {
@@ -18,6 +20,7 @@ export default class Index extends Component {
                 <MiniServices />
                 <IndexBody />
                 <Services />
+                <StartCareer/>
                 <Footer />
               
             </div>

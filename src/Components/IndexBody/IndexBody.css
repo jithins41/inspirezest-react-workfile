@@ -1,77 +1,72 @@
-.body-container{
+.ib-body-container{
     display: flex;
-    flex-direction: column;
-    margin-top: 5rem;
-    padding: 0 2rem;
-    
+    padding: 0 5rem;
+    margin-top: 6rem;
 }
-
-.image-area{
+.ib-static-image-area{
     display: none;
-    width: 100%;
-    margin-top: 1rem;
-    border: 1px solid red;
-    position: relative;
 }
-.image-area .area-image{
-    width: 100%;
-    
+.ib-area-image{
+    display: none;
 }
-.text-area{
+.ib-animated-image{
+    display: block;
     width: 100%;
+}
+.ib-text-area{
+    flex:1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 1rem;
+    gap: 3rem;
 }
-.text-area h6{
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--ins-secondary);
+.ib-body-container .ib-static-image-area{
+    flex:1;
+    display: block;
 }
-.text-area h3{
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--ins-primary);
+.ib-text-area h6{
+    font-size: 2rem;
 }
-.text-area p{
-    font-size: 0.75rem;
-    margin-top: 1rem;
+.animated-left{
+   width: 20%;
+   transform: scale(0.65) translate(-50%,-50%);
 }
-.button-area{
-    margin-top: 2rem;
+.animated-right{
+   
+   width: 20%;
+   transform: scale(1.25) translate(-150%,-20%);
 }
-.flex-reverse{
-    flex-direction: column-reverse;
-}
-@media screen and (min-width:780px) {
-    .flex-reverse{
-        flex-direction: row;
+@media (max-width:1130px){
+    .ib-body-container{
+        flex-direction: column;
+        gap:2rem;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+        margin-top: 2rem;
     }
-    .body-container{
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 5rem;
-        
+    .ib-animated-image{
+        display: none;
     }
-    .image-area{
-        width: 50%;
+    .ib-static-image-area{
         display: block;
-    }
-    .image-area .area-image{
+        text-align: center;
         width: 100%;
-        /* transform: scale(1); */
     }
-    .text-area{
-        width: 50%;
-        text-align: start;
-        align-items: flex-start;
+    .ib-area-image{
+        width: 100%;
     }
-    .text-area h3{
-        font-size: 2.5rem;
-        font-weight: 600;
-        color: var(--ins-primary);
+    .ib-text-area{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        gap:1rem
+    }
+    .ib-text-area h3{
+        margin-top: 0;
+    }
+    .ib-text-area h6{
+        margin-top: 0;
     }
 }

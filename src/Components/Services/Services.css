@@ -13,6 +13,7 @@
     align-items: center;
     width: 100%;
     margin: 1rem;
+    cursor: pointer;
 }
 
 .service-card:hover {
@@ -23,6 +24,9 @@
 .service-card i {
     font-size: 3rem;
     margin-top: 1rem;
+    background: linear-gradient(45deg, var(--ins-secondary), var(--ins-primary));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .service-card img {
@@ -39,7 +43,9 @@
 .service-card p {
     font-size: 1rem;
     margin-top: 1rem;
-    text-align: center;
+    text-align: justify;
+
+
 }
 
 .service-tite {
@@ -62,6 +68,7 @@
 
     .service-container {
         padding: 0 5rem;
+        margin-top: 2rem;
     }
 
 

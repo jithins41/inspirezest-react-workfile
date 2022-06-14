@@ -5,11 +5,11 @@ import TawkTo from 'tawkto-react'
 import { useEffect } from 'react';
 
 const propertyId = '627b53bfb0d10b6f3e719c25';
-const tawkId = '1g2oru9p5'
+const tawkId = '1g5bm1sp2'
 
 function App() {
   useEffect(() => {
-    let tawkto = new TawkTo(propertyId,tawkId)
+    new TawkTo(propertyId,tawkId)
   }, [])
   return (
     <Index />

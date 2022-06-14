@@ -3,10 +3,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: white;
     padding: 2rem 8rem;
-
-
+    width: 100%;
 }
 
 .navbar a {
@@ -25,7 +24,8 @@
 .list {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 3rem;
+   
 }
 
 #toggler, .navbar i {
@@ -33,7 +33,7 @@
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .navbar {
         padding: 2rem 2rem;
     }
