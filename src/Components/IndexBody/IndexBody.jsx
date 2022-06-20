@@ -108,13 +108,12 @@ export default class IndexBody extends Component {
             <img className="ib-area-image" src="images/office-1.svg" alt="" />
           </div>
           <div className="ib-text-area">
-            <h6>About us</h6>
+            <h6>WHO WE ARE?</h6>
             <h3>We help teams build the business of their dreams</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consectetur dicta molestiae, dolor natus autem soluta veniam, rem
-              nostrum sapiente esse repudiandae quia a, cum quidem similique
-              iure odio temporibus veritatis?
+            In Inspire Zest, we value your ideas and patience and we can work 
+            cordially to create and design interactive solutions of your choice which will 
+            elevate your company standards and work accordingly. 
             </p>
             <div className="button-area">
               <Link to="/about" className="common-button">
@@ -128,10 +127,9 @@ export default class IndexBody extends Component {
             <h6>Why choose us ?</h6>
             <h3>We dedicated your success with all our resources</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consectetur dicta molestiae, dolor natus autem soluta veniam, rem
-              nostrum sapiente esse repudiandae quia a, cum quidem similique
-              iure odio temporibus veritatis?
+            Our ardent Team aim in balance between creativity and functionality.
+             Our team will ensure in building your ideas and making your dream a
+             reality and enhance your journey with our company on  each &amp; every step
             </p>
             <div className="button-area">
               <Link to="/about" className="common-button">

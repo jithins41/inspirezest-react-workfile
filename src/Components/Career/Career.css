@@ -1,0 +1,35 @@
+.career-container{
+    display: flex;
+    padding: 0 5rem;
+}
+.career-container .left{
+    flex:1;
+}
+.career-container .right{
+    flex:1;
+    border:1px solid red;
+}
+.career-image{
+    width:100%;
+}
+.career-heading{
+    text-align: center;
+}
+
+.career-form-contents{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+}
+
+
+@media screen and (max-width:900px) {
+    .career-container{
+        flex-direction: column;
+        padding: 0;
+    }
+    .career-heading{
+        font-size: xx-large;
+    }
+}

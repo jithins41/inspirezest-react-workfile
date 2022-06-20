@@ -7,7 +7,7 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar">
         <Link to="/" className="logo">
-          <img src="images/logo.png" alt="InspireZest Logo" />
+          <img className="logo" src="images/iz_png_logo.png" alt="InspireZest Logo" />
         </Link>
         <input type="checkbox" name="" id="toggler" />
         <label for="toggler">
