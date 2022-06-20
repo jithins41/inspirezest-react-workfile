@@ -6,17 +6,20 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import ApplyOnline from './pages/ApplyOnline';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='about' element={<About />} />
-        <Route path='services' element={<Services />} />
-        <Route path='contact' element={<Contact />} />
-        <Route path='career' element={<ApplyOnline />} />
+
+        <Route exact path='/' element={<App />} />
+        <Route exact path='about' element={<About />} />
+        <Route exact path='services' element={<Services />} />
+        <Route exact path='contact' element={<Contact />} />
+        <Route exact path='career' element={<ApplyOnline />} />
+
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

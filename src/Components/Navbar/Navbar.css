@@ -15,10 +15,10 @@
 
 .logo {
     margin-right: 10px;
-    width: 50%;
+    width: 30%;
     padding: 0;
-
     margin: 0;
+
 }
 
 .list {
@@ -32,6 +32,38 @@
     display: none;
 }
 
+.hamburger{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.line{
+    position: absolute;
+    width: 21px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 3px;
+    transition: transform .25s, opacity .35s;
+}
+.line--top{
+    transform: translateY(-7px);
+}
+.line-bottom{
+    transform: translateY(7px);
+}
+#toggler:checked~.line--top{
+    transform: rotate(45deg);
+}
+#toggler:checked~.line--bottom{
+    transform: rotate(-45deg);
+}
+#toggler:checked~.line--middle{
+    transform: translateX(16px);
+    opacity: 0;
+}
 
 @media screen and (max-width:768px) {
     .navbar {

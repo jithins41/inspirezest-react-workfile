@@ -1,4 +1,4 @@
-// import axios from 'axios';
+import axios from '../../axios/axios';
 import React, { Component } from 'react'
 import './Career.css'
 
@@ -11,24 +11,27 @@ export default class Career extends Component {
             email: '',
             phone: '',
             qualification: '',
-            skills: ''
+            skills: '',
+            experience: '',
+            successMessage: '',
         }
     }
     render() {
         return (
             <div className='container'>
-                <h1 className='career-heading'>Join with us</h1>
+                <h1 className='career-heading'>Apply Now</h1>
                 <div className="career-container">
                     <div className="left">
                         <img className='career-image' src="images/career.jpg" alt="" />
                     </div>
                     <div className="right">
                         <div className="form-container">
-                            <h1 className="form-heading">Apply Now</h1>
                             <div>
+
                                 <div className="career-form-contents">
                                     <label>Your full name</label>
                                     <input
+                                        value={this.state.name}
                                         onChange={(e) => this.setState({ name: e.target.value })}
                                         className="form-text"
                                         type="text"
@@ -36,10 +39,17 @@ export default class Career extends Component {
                                         id="fullname"
                                     />
                                     <label>Email</label>
-                                    <input onChange={(e) => this.setState({ email: e.target.value })} className="form-text" type="text" name="email" id="email" />
+                                    <input
+                                        value={this.state.email}
+                                        onChange={(e) => this.setState({ email: e.target.value })}
+                                        className="form-text"
+                                        type="Email"
+                                        name="email"
+                                        id="email" />
                                     <label>Mobile</label>
                                     <input
-                                        onChange={(e) => this.setState({ mobile: e.target.value })}
+                                        value={this.state.phone}
+                                        onChange={(e) => this.setState({ phone: e.target.value })}
                                         className="form-text"
                                         type="text"
                                         name="mobile"
@@ -47,7 +57,8 @@ export default class Career extends Component {
                                     />
                                     <label>Qualification</label>
                                     <input
-                                        onChange={(e) => this.setState({ qualifications: e.target.value })}
+                                        value={this.state.qualification}
+                                        onChange={(e) => this.setState({ qualification: e.target.value })}
                                         className="form-text"
                                         type="text"
                                         name="qualification"
@@ -55,15 +66,45 @@ export default class Career extends Component {
                                     />
                                     <label>Skills</label>
                                     <input
+                                        value={this.state.skills}
                                         onChange={(e) => this.setState({ skills: e.target.value })}
                                         className="form-text"
                                         type="text"
                                         name="skills"
                                         id="skills"
                                     />
+                                    <label>Experience</label>
+                                    <input
+                                        value={this.state.experience}
+                                        onChange={(e) => this.setState({ experience: e.target.value })}
+                                        className="form-text"
+                                        type="text"
+                                        name="skills"
+                                        id="skills"
+                                    />
+                                    {/* <label>Resume</label>
+                                    <input
+                                        onChange={(e) => this.setState({ skills: e.target.value })}
+                                        className="form-text"
+                                        type="file"
+                                        name="skills"
+                                        id="skills"
+                                    /> */}
+                                    {this.state.successMessage && <label style={this.state.success} htmlFor="">{this.state.successMessage}</label>}
 
                                     <button onClick={() => {
-                                        // axios.post('http://localhost:3001/api/apply-online', { ...this.state })
+                                        axios.post('/apply-now', { ...this.state }).then((response) => {
+                                            this.setState({
+                                                name: '',
+                                                email: '',
+                                                phone: '',
+                                                qualification: '',
+                                                skills: '',
+                                                experience: '',
+                                                successMessage: response.data.message,
+
+                                            })
+                                        })
                                     }} className="common-button submit-button">Submit</button>
                                 </div>
                             </div>

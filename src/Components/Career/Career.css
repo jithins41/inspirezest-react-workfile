@@ -7,7 +7,6 @@
 }
 .career-container .right{
     flex:1;
-    border:1px solid red;
 }
 .career-image{
     width:100%;
@@ -21,6 +20,7 @@
     flex-direction: column;
     width: 100%;
     padding: 2rem;
+    gap:0.75rem;
 }
 
 
