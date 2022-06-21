@@ -28,19 +28,19 @@ export default class Footer extends Component {
                 <ul>
                   <li>
                     {" "}
-                    <a href="https://facebook.com/"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/inspirezesttechnologies"> <i class="fa-brands fa-facebook"></i></a>
                   </li>
                   <li>
                     {" "}
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/company/inspirezest"><i class="fa-brands fa-linkedin"></i></a>
                   </li>
                   <li>
                     {" "}
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/inspirezesttechnologies"><i class="fa-brands fa-instagram"></i></a>
                   </li>
                   <li>
                     {" "}
-                    <a href=""> <i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://api.whatsapp.com/send/?phone=+919567333266&text=Hello"> <i class="fa-brands fa-whatsapp"></i></a>
                   </li>
                 </ul>
               </div>

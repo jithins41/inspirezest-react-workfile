@@ -15,7 +15,7 @@
 
 .logo {
     margin-right: 10px;
-    width: 30%;
+    width: 50%;
     padding: 0;
     margin: 0;
 
@@ -78,7 +78,7 @@
 
     }
     .logo img{
-        width: 200%;
+        width: 30%;
     }
     .list {
         flex-direction: column;
