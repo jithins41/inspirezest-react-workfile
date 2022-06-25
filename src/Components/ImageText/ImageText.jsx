@@ -8,7 +8,7 @@ const lines = [
   'Web Development',
   'Software Development',
   'ERP Development',
-  'Mobile Development',
+  'Mobile App Development',
   'E- Commerce Development',
   'Training Solutions',
   'Digital Marketing',
@@ -31,12 +31,12 @@ export default class ImageText extends Component {
             </p>
             <h4 className="overlay-text">
               Areas of our expertise  <br />
-              <Typed
-                style={{ color: "#0074D7", fontSize: "2rem" }}
+              <Typed className="typed-blue"
+                style={{  fontSize: "2rem" }}
                 strings={lines}
                 typeSpeed={150}
                 loop={true}
-              ></Typed>{" "}
+              ></Typed>
             </h4>
           </div>
          

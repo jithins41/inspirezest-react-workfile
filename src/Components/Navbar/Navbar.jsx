@@ -65,11 +65,11 @@ export default class Navbar extends Component {
             </li>
             <li>
               <NavLink
-                className="common-button"
+                className="common-button-anim"
                 to="/career"
-                style={{color:'#fff'}}
+                style={{color:'#fff',fontSize:'0.9rem'}}
               >
-                Join us
+                Get hired
               </NavLink>{" "}
             </li>
           </ul>

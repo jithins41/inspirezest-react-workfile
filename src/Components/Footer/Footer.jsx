@@ -14,15 +14,17 @@ export default class Footer extends Component {
                 alt=""
               />
               <div className="footer-address">
-                IInd floor, Velayudham Mansion, SN College Junction, Kollam,
-                Kerala, India
+              <i class="fa-solid fa-location-pin"></i>&nbsp; IInd floor, Velayudha Mansion, <br />&nbsp;&nbsp;&nbsp;&nbsp; SN College Junction, Kollam,
+               <br />&nbsp;&nbsp;&nbsp;&nbsp; Kerala, India - 691001
               </div>
               <div className="footer-email">
-                <i class="fa-solid fa-envelope"></i>:
-                info@inspirezesttechnologies.com
+                <i class="fa-solid fa-envelope"></i> info@inspirezesttechnologies.com
               </div>
               <div className="footer-phone">
-                <i class="fa-solid fa-phone"></i> +91 9567333266
+                <i class="fa-solid fa-phone"></i> +91 9567333266 (Customer Care)
+              </div>
+              <div className="footer-phone">
+                <i class="fa-solid fa-mobile"></i> +91 9567535617, +91 9496739617
               </div>
               <div className="footer-socialmedia">
                 <ul>
@@ -54,11 +56,12 @@ export default class Footer extends Component {
                 <li>Wed &nbsp;: 09:00AM - 06:00PM</li>
                 <li>Thu &nbsp;&nbsp;: 09:00AM - 06:00PM</li>
                 <li>Fri &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 09:00AM - 06:00PM</li>
-                <li>Sat &nbsp;&nbsp;&nbsp;: Closed</li>
+                <li>Sat &nbsp;&nbsp;&nbsp;: 09:00AM - 06:00PM</li>
                 <li>Sun &nbsp;&nbsp;: Closed</li>
               </ul>
             </div>
             <div className="ins-col-3">
+            <h2 className="footer-work">Locate us</h2>
               <a href="https://google.com/maps/place/InspireZest+Technologies+Pvt+Ltd/@8.8802302,76.6043145,15z/data=!4m5!3m4!1s0x0:0xbff685223bfa38ea!8m2!3d8.8802302!4d76.6043145">
                 <img
                   src="images/map.png"
@@ -68,6 +71,9 @@ export default class Footer extends Component {
               </a>
             </div>
           </div>
+        </div>
+        <div>
+          
         </div>
       </div>
     );

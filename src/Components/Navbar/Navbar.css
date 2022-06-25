@@ -3,9 +3,10 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: transparent;
     padding: 2rem 8rem;
     width: 100%;
+    
 }
 
 .navbar a {
@@ -24,10 +25,12 @@
 .list {
     list-style: none;
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
    
 }
-
+.list li{
+    font-size: 1.2rem;
+}
 #toggler, .navbar i {
     display: none;
 }
@@ -44,7 +47,7 @@
     position: absolute;
     width: 21px;
     height: 2px;
-    background-color: #fff;
+    background-color: transparent;
     border-radius: 3px;
     transition: transform .25s, opacity .35s;
 }
@@ -78,7 +81,7 @@
 
     }
     .logo img{
-        width: 30%;
+        width: 100%;
     }
     .list {
         flex-direction: column;

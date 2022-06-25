@@ -44,6 +44,9 @@
 .static-image{
     width: 100%;
 }
+.typed-blue{
+    color: #0074D7 !important;
+}
 @media screen and (max-width:1360px) {
     .static-image-area{
         display: flex;

@@ -4,8 +4,8 @@ import Index from './pages/Index';
 import TawkTo from 'tawkto-react'
 import { useEffect } from 'react';
 
-const propertyId = '627b53bfb0d10b6f3e719c25';
-const tawkId = '1g5bm1sp2'
+const propertyId = '62b6a537b0d10b6f3e793d74';
+const tawkId = '1g6cnap99'
 
 function App() {
   useEffect(() => {

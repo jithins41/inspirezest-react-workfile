@@ -1,7 +1,8 @@
 .footer-container {
-    background-color: #f3f3f3;
+    background-color: transparent;
     margin-top: 5rem;
     padding: 0 5rem;
+    box-shadow: 5px 0 10px rgb(221, 221, 221);
 
     
 }
@@ -23,7 +24,7 @@
 }
 
 .footer-address {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-weight: bold;
     font-size: 1rem;
 }
@@ -34,9 +35,21 @@
     display: flex;
     gap: 2rem;
 }
+.footer-socialmedia ul li a{
+   text-decoration: none;
+   color: var(--ins-primary);
+   font-size: x-large;
+   transition: 1s ease-out;
+}
+.footer-socialmedia ul li:hover{
+    /* cursor: pointer; */
+    color:var(--ins-secondary);
+    transform: translateY(-3px);
+    transition: 0.3s ease-out;
+}
 
 .footer-email {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .footer-phone {
@@ -52,7 +65,7 @@
     list-style: none;
     margin-left: 1rem;
     margin-top: 2rem;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     gap: 1rem;
     display: flex;
     flex-direction: column;

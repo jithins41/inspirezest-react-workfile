@@ -2,21 +2,21 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    opacity: 0.3;
+    opacity: 0.15;
     animation: socialanimation 20s infinite linear;
 }
 .animation-rotateY{
     position: absolute;
     width: 50px;
     height: 50px;
-    opacity: 0.3;
+    opacity: 0.15;
     animation: animrotatey 20s infinite linear;
 }
 .animation-object-group{
     position: absolute;
     width: 75%;
     height: 75%;
-    opacity: 0.5;
+    opacity: 0.3;
     animation: socialanimation 50s infinite linear;
 }
 

@@ -25,10 +25,16 @@ class GetInTouch extends React.Component {
           <div className="lhs">
             <div className="address-container">
               <h1>Contact us</h1>
-              <p><i class="fa-solid fa-phone"></i> &nbsp; +91 9567333266</p>
+              <p><i class="fa-solid fa-location-pin"></i> &nbsp; IInd floor, Velayudha Mansion, <br />
+                &nbsp;&nbsp;&nbsp;&nbsp; SN College Junction, Kollam,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp; Kerala, India - 691001</p>
               <p><i class="fa-regular fa-envelope"></i> &nbsp; info@inspirezesttechnologies.com</p>
-              <p><i class="fa-solid fa-location-pin"></i> &nbsp; IInd floor, Velayudham Mansion, SN College Junction, Kollam,
-                Kerala, India</p>
+              <p><i class="fa-solid fa-phone"></i> &nbsp; +91 9567333266 (Customer Care) </p>
+              <p><i class="fa-solid fa-mobile"></i>&nbsp; +91 9567535617, +91 9496739617</p>
+
+
+
+
             </div>
           </div>
           <div className="rhs">
