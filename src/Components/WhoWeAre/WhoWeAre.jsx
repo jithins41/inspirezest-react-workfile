@@ -29,7 +29,7 @@ function WhoWeAre() {
               In Inspire Zest, we value your ideas and patience and we can work cordially to create and design interactive solutions of your choice which will elevate your company standards and work accordingly.
             </p>
             <Link
-              className="common-button"
+              className="common-button-anim"
               to="/services"
             >
               Our Services

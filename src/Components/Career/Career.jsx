@@ -22,7 +22,9 @@ export default class Career extends Component {
                 <h1 className='career-heading'>Apply Now</h1>
                 <div className="career-container">
                     <div className="left">
-                        <img className='career-image' src="images/career.jpg" alt="" />
+                        <img className='career-image' src="images/career.svg" alt="" />
+                        <h1 style={{marginTop:'2rem',}}>Drop your cv</h1>
+                        <p>career@inspirezesttechnologies.com</p>
                     </div>
                     <div className="right">
                         <div className="form-container">
@@ -37,12 +39,23 @@ export default class Career extends Component {
                                             qualification: '',
                                             skills: '',
                                             experience: '',
+                                            applied: '',
                                             successMessage: response.data.message,
 
                                         })
                                     })
                                 }}>
                                     <div className="career-form-contents">
+                                        <label>Applied for</label>
+                                        <input
+                                            required
+                                            value={this.state.applied}
+                                            onChange={(e) => this.setState({ name: e.target.value })}
+                                            className="form-text"
+                                            type="text"
+                                            name="applied"
+                                            id="applied"
+                                        />
                                         <label>Your full name</label>
                                         <input
                                             required

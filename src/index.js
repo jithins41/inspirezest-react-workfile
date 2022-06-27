@@ -7,7 +7,6 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import ApplyOnline from './pages/ApplyOnline';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

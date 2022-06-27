@@ -4,8 +4,8 @@ import "./Footer.css";
 export default class Footer extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="footer-container">
+      <div className="footer-container">
+        <div className="container">
           <div className="ins-row">
             <div className="ins-col-3">
               <img
@@ -14,8 +14,8 @@ export default class Footer extends Component {
                 alt=""
               />
               <div className="footer-address">
-              <i class="fa-solid fa-location-pin"></i>&nbsp; IInd floor, Velayudha Mansion, <br />&nbsp;&nbsp;&nbsp;&nbsp; SN College Junction, Kollam,
-               <br />&nbsp;&nbsp;&nbsp;&nbsp; Kerala, India - 691001
+                <i class="fa-solid fa-location-pin"></i>&nbsp; IInd floor, Velayudha Mansion, <br />&nbsp;&nbsp;&nbsp;&nbsp; SN College Junction, Kollam,
+                <br />&nbsp;&nbsp;&nbsp;&nbsp; Kerala, India - 691001
               </div>
               <div className="footer-email">
                 <i class="fa-solid fa-envelope"></i> info@inspirezesttechnologies.com
@@ -61,7 +61,7 @@ export default class Footer extends Component {
               </ul>
             </div>
             <div className="ins-col-3">
-            <h2 className="footer-work">Locate us</h2>
+              <h2 className="footer-work">Locate us</h2>
               <a href="https://google.com/maps/place/InspireZest+Technologies+Pvt+Ltd/@8.8802302,76.6043145,15z/data=!4m5!3m4!1s0x0:0xbff685223bfa38ea!8m2!3d8.8802302!4d76.6043145">
                 <img
                   src="images/map.png"
@@ -73,7 +73,7 @@ export default class Footer extends Component {
           </div>
         </div>
         <div>
-          
+
         </div>
       </div>
     );

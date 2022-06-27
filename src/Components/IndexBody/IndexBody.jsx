@@ -116,7 +116,7 @@ export default class IndexBody extends Component {
             elevate your company standards and work accordingly. 
             </p>
             <div className="button-area">
-              <Link to="/about" className="common-button">
+              <Link to="/about" className="common-button-anim">
                 Know more
               </Link>
             </div>
@@ -132,7 +132,7 @@ export default class IndexBody extends Component {
              reality and enhance your journey with our company on  each &amp; every step
             </p>
             <div className="button-area">
-              <Link to="/about" className="common-button">
+              <Link to="/about" className="common-button-anim">
                 Know more
               </Link>
             </div>

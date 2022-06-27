@@ -26,7 +26,7 @@ function ServiceMain() {
           </p>
         </div>
         <div className="service-card">
-          <img src="images/erp.jpg" alt="" />
+          <img src="images/erp.svg" alt="" />
           <h3>ERP Development</h3>
           <p>
             Enterprise development enhances centralized framework covering all data and processes of an organization. It consolidates all domains of a business from planning to inventory control, sales, marketing, finance  customer service and human resources. We provide ERP solutions which are cost effective and customizable.

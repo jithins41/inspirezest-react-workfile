@@ -3,7 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 0 2rem;
+    padding: 0 0.3rem;
     margin-top: 5rem;
 }
 /* .small-card {
@@ -23,6 +23,7 @@
     /* background: linear-gradient(45deg,rgb(223, 46, 170),rgb(99, 60, 207)); */
     cursor: pointer;
     transform: translateY(-10px);
+    backdrop-filter: grayscale(0.5) opacity(0.8);
     
 }
 .service-card {

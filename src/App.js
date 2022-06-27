@@ -9,7 +9,7 @@ const tawkId = '1g6cnap99'
 
 function App() {
   useEffect(() => {
-    new TawkTo(propertyId,tawkId)
+    new TawkTo(propertyId, tawkId)
   }, [])
   return (
     <Index />

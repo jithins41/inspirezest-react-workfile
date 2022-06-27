@@ -3,7 +3,7 @@
     --ins-secondary: #81007F;
     --ins-light: #f9f9f9;
     --ins-yellow: rgb(233, 182, 12);
-    --ins-grey:rgb(199, 199, 199);
+    --ins-grey: rgb(199, 199, 199);
 }
 
 ::-webkit-scrollbar {
@@ -25,19 +25,24 @@
     padding: 0;
     /* font-family: 'Urbanist', sans-serif; */
     font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    color: rgb(83, 83, 83);
+    background: rgb(211, 16, 213);
+    background: linear-gradient(90deg, rgba(204, 17, 207, 0.080) 0%, rgba(0, 213, 255, 0.123) 100%);
     
 }
-body{
-    color: rgb(83, 83, 83);
-    background: rgb(211,16,213);
-background: linear-gradient(90deg, rgba(204, 17, 207, 0.080) 0%, rgba(0, 213, 255, 0.123) 100%);
-}
-.typed-blue{
+
+.typed-blue {
     color: #0074D7 !important;
 }
+
 .container {
     width: 100%;
     position: relative;
+    margin: auto;
 }
 
 .image-fit {
@@ -53,14 +58,22 @@ background: linear-gradient(90deg, rgba(204, 17, 207, 0.080) 0%, rgba(0, 213, 25
     font-weight: bold;
     color: white;
 }
+
 .common-button-anim {
     text-decoration: none;
     padding: 0.75rem 2.5rem;
-    border-radius: 25px;
-    border: none;
-    background-color: var(--ins-secondary);
-    font-weight: bold;
-    color: white;
+    background-color: var(--ins-primary);
+    transition: 01s;
+    color: #fff;
+    /* border-radius: 25px; */
+}
+
+
+.common-button-anim:hover,
+.common-button-anim:focus {
+    box-shadow:
+        inset -10em 0 0 0 var(--ins-secondary),
+        inset 10em 0 0 0 var(--ins-secondary);
 }
 
 .common-button:hover {
@@ -71,4 +84,11 @@ background: linear-gradient(90deg, rgba(204, 17, 207, 0.080) 0%, rgba(0, 213, 25
     background-color: var(--ins-primary);
     font-weight: bold;
     color: white;
+}
+
+@media screen and (min-width:1920px) {
+    .container{
+        margin: auto;
+        max-width: 1920px;
+    }
 }

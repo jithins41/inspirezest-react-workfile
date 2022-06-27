@@ -51,4 +51,7 @@
         padding: 3% 3%;
         font-size: 15px;
     }
+    .start-career-box{
+        flex-direction: column;
+    }
 }

@@ -12,7 +12,7 @@ export default class StartCareer extends Component {
                             <h1 className="career-heading">Interest in Join with InspireZest</h1>
                         </div>
                         <div className="right">
-                            <Link className="btn common-button" to='/career'> Apply Now</Link>
+                            <Link className="btn common-button-anim" to='/career'> Apply Now</Link>
                         </div>
                     </div>
                 </div>

@@ -47,7 +47,7 @@
 
 }
 
-@media (max-width:780px) {
+@media (max-width:1200px) {
     .who-container {
         padding: 0 2rem;
     }
@@ -71,9 +71,14 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 0;
-        font-size: 1rem;
+        font-size: 0.5rem;
+        text-align: left;
     }
     .who-text h1,p,a{
         margin-top: 2rem;
+    }
+    .about-title
+    {
+        font-size: 2rem;
     }
 }

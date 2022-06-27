@@ -35,7 +35,7 @@
    width: 20%;
    transform: scale(1.25) translate(-150%,-20%);
 }
-@media (max-width:1130px){
+@media (max-width:1200px){
     .ib-body-container{
         flex-direction: column;
         gap:2rem;
@@ -53,6 +53,7 @@
         width: 100%;
     }
     .ib-area-image{
+        display: block;
         width: 100%;
     }
     .ib-text-area{
